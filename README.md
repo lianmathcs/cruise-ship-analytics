@@ -19,20 +19,22 @@ and popular data science libraries like `pandas`, `seaborn`, and `scikit-learn`.
 ---
 
 ## 📁 Project Structure
-cruise-ship-analytics/
-├── data/
-│   ├── cruise_ships.csv                # Raw data
-│   └── processed/
-│       ├── cruise_ships_eda.csv        # Cleaned for visualization
-│       └── cruise_ships_ml.csv         # Cleaned for ML tasks
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb          # Data cleaning steps
-│   ├── 02_data_EDA.ipynb               # Exploratory Data Analysis
-│   ├── 03_data_EDA_nonnumeric.ipynb    # Exploratory Non-numeric Data Analysis
-|   ├── 04_data_ML.ipynb                # Feature engineering + clustering
-├── README.md
-├── requirements.txt
-└── .gitignore
+
+    cruise-ship-analytics/
+    ├── data/
+    │   ├── cruise_ships.csv
+    │   ├── cruise_ships_eda.csv
+    │   ├── cruise_ships_enriched_ml_ready.csv   
+    │   ├── cruise_ships_ml.csv
+    |
+    ├── notebooks/
+    │   ├── 01_data_cleaning.ipynb
+    │   ├── 02_data_EDA.ipynb
+    │   ├── 03_data_EDA_nonnumeric.ipynb
+    │   └── 04_data_ML.ipynb
+    ├── README.md
+    ├── requirements.txt
+    └── .gitignore
 
 ---
 
